@@ -1,0 +1,20 @@
+#Para importar a biblioteca random, padrão do Phyton:
+import random
+
+#Atribui a i o valor 0
+i = 0
+
+#Variável número recebe um número inteiro gerado aleatoriamente, de acordo com a biblioteca random. 
+#Valor de randint foi determinado entre 1-100. Esse valor pode ser alterado. 
+numero = int (random.randint(1,100))
+
+#Imprime o valor randômico importado. 
+print ('Número selecionado:', numero)
+
+#Executa uma sequência para cada elemento que está sendo interado de acordo com o valor randômico gerado anteriormente.
+for i in range (numero + i):
+  #Gera o espaço, decrementando o valor de número a cada repetição.
+  espaco = (numero - (1 + i))
+
+  #Imprime o espaco e o símbolo "*" X vezes, de acordo com o valor randômico gerado. 
+  print (' ' * espaco + '*' * (1 + i))
