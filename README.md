@@ -2,7 +2,7 @@
 
 Desafio de programação realizado para o processo de seleção Academia Capgemini.
 
-# Linguagem utilzada: 
+# Linguagem utilizada: 
 Python 
 
 # Instruções 
